@@ -10,11 +10,11 @@
 		F60750DE1B7A33BF00A4A741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F60750DD1B7A33BF00A4A741 /* main.m */; };
 		F60750E11B7A33BF00A4A741 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F60750E01B7A33BF00A4A741 /* AppDelegate.m */; };
 		F60750E41B7A33BF00A4A741 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60750E31B7A33BF00A4A741 /* FirstViewController.m */; };
-		F60750E71B7A33BF00A4A741 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F60750E61B7A33BF00A4A741 /* SecondViewController.m */; };
 		F60750EA1B7A33BF00A4A741 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F60750E81B7A33BF00A4A741 /* Main.storyboard */; };
 		F60750EC1B7A33BF00A4A741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F60750EB1B7A33BF00A4A741 /* Images.xcassets */; };
 		F60750EF1B7A33BF00A4A741 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F60750ED1B7A33BF00A4A741 /* LaunchScreen.xib */; };
 		F60750FB1B7A33BF00A4A741 /* TableIndexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F60750FA1B7A33BF00A4A741 /* TableIndexTests.m */; };
+		F6FAD9391B7AD61D00E0BD4E /* WordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FAD9381B7AD61D00E0BD4E /* WordModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +35,14 @@
 		F60750E01B7A33BF00A4A741 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F60750E21B7A33BF00A4A741 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		F60750E31B7A33BF00A4A741 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		F60750E51B7A33BF00A4A741 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		F60750E61B7A33BF00A4A741 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		F60750E91B7A33BF00A4A741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F60750EB1B7A33BF00A4A741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F60750EE1B7A33BF00A4A741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F60750F41B7A33BF00A4A741 /* TableIndexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableIndexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F60750F91B7A33BF00A4A741 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F60750FA1B7A33BF00A4A741 /* TableIndexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableIndexTests.m; sourceTree = "<group>"; };
+		F6FAD9371B7AD61D00E0BD4E /* WordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordModel.h; sourceTree = "<group>"; };
+		F6FAD9381B7AD61D00E0BD4E /* WordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,9 +88,9 @@
 				F60750E01B7A33BF00A4A741 /* AppDelegate.m */,
 				F60750E21B7A33BF00A4A741 /* FirstViewController.h */,
 				F60750E31B7A33BF00A4A741 /* FirstViewController.m */,
-				F60750E51B7A33BF00A4A741 /* SecondViewController.h */,
-				F60750E61B7A33BF00A4A741 /* SecondViewController.m */,
 				F60750E81B7A33BF00A4A741 /* Main.storyboard */,
+				F6FAD9371B7AD61D00E0BD4E /* WordModel.h */,
+				F6FAD9381B7AD61D00E0BD4E /* WordModel.m */,
 				F60750EB1B7A33BF00A4A741 /* Images.xcassets */,
 				F60750ED1B7A33BF00A4A741 /* LaunchScreen.xib */,
 				F60750DB1B7A33BF00A4A741 /* Supporting Files */,
@@ -224,10 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F60750E71B7A33BF00A4A741 /* SecondViewController.m in Sources */,
 				F60750E11B7A33BF00A4A741 /* AppDelegate.m in Sources */,
 				F60750E41B7A33BF00A4A741 /* FirstViewController.m in Sources */,
 				F60750DE1B7A33BF00A4A741 /* main.m in Sources */,
+				F6FAD9391B7AD61D00E0BD4E /* WordModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +422,7 @@
 				F60751001B7A33BF00A4A741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F60751011B7A33BF00A4A741 /* Build configuration list for PBXNativeTarget "TableIndexTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +431,7 @@
 				F60751031B7A33BF00A4A741 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
